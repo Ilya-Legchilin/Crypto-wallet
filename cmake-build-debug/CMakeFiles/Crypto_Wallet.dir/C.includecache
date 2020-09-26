@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/CLionProjects/Crypto_Wallet/crypto_wallet.h
+stdio.h
+-
+misc.h
+C:/Users/User/CLionProjects/Crypto_Wallet/misc.h
+stdint.h
+C:/Users/User/CLionProjects/Crypto_Wallet/stdint.h
+
+C:/Users/User/CLionProjects/Crypto_Wallet/log.h
+
+C:/Users/User/CLionProjects/Crypto_Wallet/main.c
+stdio.h
+-
+crypto_wallet.h
+C:/Users/User/CLionProjects/Crypto_Wallet/crypto_wallet.h
+misc.h
+C:/Users/User/CLionProjects/Crypto_Wallet/misc.h
+log.h
+C:/Users/User/CLionProjects/Crypto_Wallet/log.h
+
+C:/Users/User/CLionProjects/Crypto_Wallet/misc.h
+stdint.h
+C:/Users/User/CLionProjects/Crypto_Wallet/stdint.h
+
